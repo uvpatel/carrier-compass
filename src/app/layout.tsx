@@ -38,9 +38,9 @@ export const metadata: Metadata = {
   creator: "Prepwise",
   publisher: "Prepwise",
   icons: {
-    icon: "/logo.svg",
-    shortcut: "/logo.svg",
-    apple: "/logo.svg",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   openGraph: {
     type: "website",
