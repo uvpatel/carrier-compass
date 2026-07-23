@@ -21,6 +21,10 @@ export const auth = betterAuth({
   emailAndPassword: {
     enabled: true,
   },
+  trustedOrigins: [
+    "https://carrier-compass-nine.vercel.app",
+    
+  ],
   socialProviders: {
     github: {
       clientId: process.env.GITHUB_CLIENT_ID || "github_client_id_placeholder",
